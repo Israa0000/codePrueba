@@ -82,7 +82,19 @@ Como crear un repositorio desde cero
 
 **Ya tendriamos nuestro repositorio creado**
 
-### Guardar progreso en nuestro repositorio
+### Iniciar y guardar el proceso
 Una vez creado nuestro repositorio podemos guardar todo el codigo y añadir una pequeña descripcion de cada movimiento 
 
 El proceso se empieza de esta manera
+`git init` esto lo hacemos solo una vez para inicializar el repositorio
+
+`git branch` 
+para ver en la rama que estamos en esta ocasion tiene que esta en `master`, mas adelante veremos como crear ramas y como funcionan estas
+
+`git add .` almacena todos lo cambios NO LOS SUBE
+
+`git commit -m "descripción del commit"` todo lo que forma parte de `git add .`ahora forma parte de commit, a parte de añadir una descripcion
+
+`git push` actualiza el repositorio 
+
+al meter el anterior comando puede que nos pida que iniciemos sesion en la pagina de github.com, lo hacemos y ya tendremos el repositorio en marcha
